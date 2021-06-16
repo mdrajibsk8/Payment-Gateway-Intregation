@@ -13,7 +13,7 @@ export default function Payment(props) {
   const stateChng = (navState) => {
   //  console.log(navState);
    const { url, title } = navState ;
-   if(title == "PayPal Sucess"){
+   if(title == "PayPal Success"){
       console.log("url",url);
       let spliturl = url.split('?');
       // console.log("spliturl",spliturl);
